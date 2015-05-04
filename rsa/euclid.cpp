@@ -7,7 +7,7 @@ num gcd(num a, num b, num& x, num& y) {
   num ap, bp, xp, yp, gcdp;
 
   if (a > b) {
-    return gcd(b, a, x, y);
+    return gcd(b, a, y, x);
   }
   if (a == 0) {
     x = 0;
